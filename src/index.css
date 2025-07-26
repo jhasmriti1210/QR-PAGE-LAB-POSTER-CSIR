@@ -2,6 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.popup-bounce {
+    animation: cartoonBounce 1s ease-in-out;
+}
+
+@keyframes cartoonBounce {
+    0% {
+        transform: scale(0.6) rotate(-5deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.1) rotate(3deg);
+        opacity: 1;
+    }
+
+    70% {
+        transform: scale(0.95) rotate(-2deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(-3deg);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+}
+
+.animate-wiggle {
+    animation: wiggle 1.5s infinite ease-in-out;
+}
+
+
 /* POPUP FADE IN */
 @keyframes fadeInPopup {
     0% {
