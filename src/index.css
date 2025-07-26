@@ -10,7 +10,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
-.popup-bounce {
+/* .popup-bounce {
     animation: cartoonBounce 1s ease-in-out;
 }
 
@@ -32,9 +32,9 @@ body {
     100% {
         transform: scale(1) rotate(0deg);
     }
-}
+} */
 
-@keyframes wiggle {
+/* @keyframes wiggle {
 
     0%,
     100% {
@@ -44,14 +44,14 @@ body {
     50% {
         transform: rotate(3deg);
     }
-}
+} */
 
-.animate-wiggle {
+/* .animate-wiggle {
     animation: wiggle 1.5s infinite ease-in-out;
-}
+} */
 
 
-/* POPUP FADE IN */
+/* POPUP FADE IN
 @keyframes fadeInPopup {
     0% {
         opacity: 0;
@@ -66,10 +66,10 @@ body {
 
 .animate-fadeInPopup {
     animation: fadeInPopup 0.5s ease-out forwards;
-}
+} */
 
 /* FADE IN CONTENT */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
         transform: scale(0.98);
@@ -83,7 +83,7 @@ body {
 
 .animate-fade-in {
     animation: fadeIn 1.2s ease-out both;
-}
+} */
 
 /* RISE ANIMATION FOR BUBBLES */
 @keyframes rise {
