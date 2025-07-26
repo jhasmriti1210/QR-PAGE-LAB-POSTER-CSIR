@@ -28,7 +28,7 @@ function App() {
   useEffect(() => {
     const langInterval = setInterval(() => {
       setShowHindi((prev) => !prev);
-    }, 1500);
+    }, 4000);
     return () => clearInterval(langInterval);
   }, []);
 
