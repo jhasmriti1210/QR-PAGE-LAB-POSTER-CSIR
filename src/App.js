@@ -68,15 +68,15 @@ function App() {
           </>
         )}
 
-        <button
-          onClick={handleClick}
+        <a
+          href="https://virtual-project-gamma.vercel.app/"
           className="bg-gradient-to-r from-blue-800 to-cyan-700 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 
     rounded-full border-2 border-white shadow-[0_0_20px_5px_rgba(0,255,255,0.5)] 
     hover:scale-105 hover:shadow-[0_0_30px_10px_rgba(0,255,255,0.7)] 
     transition-all duration-300 ease-in-out text-sm sm:text-base md:text-lg"
         >
           {showHindi ? "प्रशिक्षण लिंक" : "Training Link"}
-        </button>
+        </a>
 
       </div>
 
